@@ -1,0 +1,19 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [156] using StatReload
+INFO:     Started server process [158]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:46710 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:48122 - "GET /api/stocks/AAPL/history HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:48138 - "GET /api/stocks/AAPL/history HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:48136 - "GET /api/favorites HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48142 - "GET /api/favorites HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48122 - "GET /api/stocks/AAPL/analysis HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:48138 - "GET /api/stocks/AAPL/analysis HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41860 - "GET /api/favorites HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41868 - "GET /api/favorites HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41862 - "GET /api/stocks/AAPL/history HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41844 - "GET /api/stocks/AAPL/history HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41860 - "GET /api/stocks/AAPL/analysis HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41868 - "GET /api/stocks/AAPL/analysis HTTP/1.1" 404 Not Found
